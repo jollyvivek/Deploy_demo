@@ -1,15 +1,15 @@
 import React from 'react'
-import Navbar from './components/Navbar/Navbar'
+import Navbar from './components/Navbar'
 import { Routes,Route } from 'react-router-dom'
-import Home from './components/Home/Home'
-import About from './components/About/About'
-import Service from './components/Service/Service'
-import Contact from './components/Contact/Contact'
+import Home from './pages/Home'
+import About from './pages/About'
+import Service from './pages/Service'
+import Contact from './pages/Contact'
 
 
 const App = () => {
   return (
-    <div className=''>
+    <div className='px-4 sm:px-[4vw] md:px-[6vw] lg:px-[8vw]'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
