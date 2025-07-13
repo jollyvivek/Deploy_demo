@@ -23,6 +23,10 @@ export const slides = [
 
   ]
 
+  export const banner = [
+    { img:img1 },{ img:img2 },{ img:img3 },{ img:img4 }
+  ]
+
   export const cardslider = [
     {name:"VIVEK JOLLY",
       img:user,
